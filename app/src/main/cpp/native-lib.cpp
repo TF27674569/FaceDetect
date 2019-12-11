@@ -196,7 +196,7 @@ Java_com_ndk_facedetect_FaceDetection_trainPattern(JNIEnv *env, jobject instance
     vector<int> labels;
 
 
-    // 样本转mat
+    // 样本 TODO 从30开始 太多了识别时比较慢
     for (int i = 30; i <= maxLabel; ++i) {
         for (int j = 1; j <= 10; ++j) {
             // 样本文件路径
