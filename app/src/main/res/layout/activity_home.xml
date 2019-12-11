@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:padding="2dp"
+        android:hint="采集人的名字：仅限英文"
+        android:background="@null"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="train"
+        android:layout_width="match_parent"
+        android:text="采集人脸样本(前摄)"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="train1"
+        android:layout_width="match_parent"
+        android:text="采集人脸样本(后摄)"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:onClick="face"
+        android:layout_width="match_parent"
+        android:text="训练人脸样本"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="recognizer"
+        android:layout_width="match_parent"
+        android:text="识别人脸（前摄）"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="recognizer1"
+        android:layout_width="match_parent"
+        android:text="识别人脸（后摄）"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
